@@ -8,8 +8,8 @@
 
     /* Background */
     html, body, #cnt, .rg_l, #botabar {
-        background: #101010 !important;
-        color: #c5c5c5;
+        background: #fce4ec !important;
+        color: #edd3dc;
     }
     /* Inverting colors */
     .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
@@ -51,8 +51,8 @@
     *::-webkit-scrollbar {
         width: 10px !important;
         height: 10px !important;
-        background: #1e1e1e !important;
-        border: 1px solid #252525 !important;
+        background: #fce4ec !important;
+        border: 1px solid #fce4ec !important;
     }
     *::-webkit-scrollbar-button {
         display: none !important;
@@ -68,7 +68,7 @@
     }
     *::-webkit-scrollbar-corner,
     *::-webkit-scrollbar-track {
-        background: #1e1e1e !important;
+        background: #fce4ec !important;
     }
 
     /* Text Input #C5C5C5 */

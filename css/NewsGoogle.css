@@ -11,8 +11,8 @@ Applies to: https://news.google.com
 --darkgrey: #1B1B1B !important;
 --midgrey: rgba(76, 75, 75, 3.9) !important;
 --lightgrey: rgba(76, 75, 75, 0.51) !important;
---bluecolor: #8CB3D9 !important;
---textcolor: #afafaf !important;
+--bluecolor: #f06292 !important;
+--textcolor: #f06292 !important;
 --bordercolor: hsla(0, 0%, 30%, 1) !important;
 }  
 
@@ -250,9 +250,10 @@ a {
 div.gb_td.gb_Ud {
 	background: var(--darkgrey) !important;
 }
-
+.gb_2d {
+    background-color: #fcf7f9;
+}
 .gb_me {
-    background-color: var(--darkgrey) !important;
     color: var(--textcolor) !important;
     border: none;
     -webkit-transition: none;

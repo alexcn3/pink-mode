@@ -1,14 +1,12 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
 
-  "version": "2.0.1",
-  "name": "Dark Night Mode",
+  "version": "1.0",
+  "name": "Vjuicy Pink Mode",
   "manifest_version": 2,
-  "short_name": "darknightmode",
-  "description": "It is a night mode for the entire Internet. It darkens all the websites you visit so that you can browse without straining your eyes",
-  "permissions": ["tabs","storage", "<all_urls>", "contextMenus"],
+  "short_name": "pinkmode",
+  "description": "Dark mode but Vishruti style => Contact: PINKMODE!! Happy birthday, ma'am!!!",
+  "permissions": ["storage", "activeTab", "contextMenus"],
   "web_accessible_resources": ["css/*.css"],
-  "homepage_url": "https://darknightmode.com",
   "options_page": "templates/options.html",
   "offline_enabled": true,
   "icons": {

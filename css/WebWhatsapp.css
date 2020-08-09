@@ -16,7 +16,7 @@ header.pane-header {
 body {
     background-image: -webkit-linear-gradient(top, #5b5b5b, #5b5b5b) !important;
     font-family: 'Roboto Light', sans-serif !important;
-    color: #ffffff;
+    color: #c2185b;
 }
 .pane-chat-footer {
     background-color: #323232 !important;
@@ -68,7 +68,7 @@ body {
     color: #d5d5d5 !important;
 }
 .chat-time {
-    color: #898989 !important;
+    color: #c2185b !important;
     font-size: 10px !important;
 }
 .chatlist .active.location,
@@ -116,10 +116,10 @@ body {
 }
 .document-meta,
 .message-text {
-    color: #d3d3d3 !important;
+    color: #c2185b !important;
 }
 .message-datetime {
-    color: #646464 !important;
+    color: #c2185b !important;
 }
 .message-out:before {
     background-image: url("data:") !important;
@@ -132,7 +132,7 @@ body {
     padding-right: 30px !important;
 }
 .input {
-    color: #e1e1e1 !important;
+    color: #c2185b !important;
 }
 .block-compose .input-container {
     background-color: #202020 !important;
@@ -236,7 +236,7 @@ body {
 }
 .media-chat .chat-main,
 .media-chat .header-main {
-    color: #ffffff !important;
+    color: #c2185b !important;
 }
 .chat:hover:not(.active),
 .location:hover:not(.active) {
@@ -255,10 +255,10 @@ body {
 .chat.active .chat-status,
 .chat.active .header-secondary,
 .chat.active .location-secondary {
-    color: #d5d5d5 !important;
+    color: #c2185b !important;
 }
 .chat-status.ellipsify {
-    color: #d5d5d5 !important;
+    color: #c2185b !important;
 }
 .block-compose .input-container.disabled {
     background-color: #696969 !important;
@@ -764,7 +764,7 @@ header.pane-header {
 }
 
 .msg-unread {
-	background-color: rgba(85,85,85,0.25);   
+    background-color: rgba(85,85,85,0.25);   
 }
 
 .msg-unread-body {
@@ -773,18 +773,18 @@ header.pane-header {
 }
 
 .intro {
-	background-color: transparent;   
+    background-color: transparent;   
 }
 
 .message-text strong,
 .media-caption strong {
- 	color: #fff;   
+    color: #fff;   
 }
 
 .compose-popup-panel,
 .btn-background
 {
-	background-color: #2d2d2d;
+    background-color: #2d2d2d;
 }
 
 .chatlist-panel-search,
@@ -800,7 +800,7 @@ input
 
 .message-system
 {
- 	background-color: #666;   
+    background-color: #666;   
 }
 
 .chat-meta
@@ -810,7 +810,7 @@ input
 
 .chatlist .chat-body, .chatlist .header-body
 {
- 	border: 0px;   
+    border: 0px;   
 }
 
 .section-header
@@ -825,17 +825,17 @@ input
 
 .chatlist .chat:hover:after, .chatlist .chat.hover:after, .chatlist .chat.active:after, .chatlist .chat.active:after
 {
-	border-top-color: #505050;   
+    border-top-color: #505050;   
 }
 
 .message-text, .media-caption, .document-body, .dropdown-item-action
 {
-	color: #d3d3d3;   
+    color: #d3d3d3;   
 }
 
 .dropdown-item-hover .dropdown-item-action
 {
-	color: #333;   
+    color: #333;   
 }
 
 .message-system
@@ -846,17 +846,17 @@ input
 
 .list-action
 {
-	background-color: #222;   
+    background-color: #222;   
 }
 
 .list-action:hover
 {
-	background-color: #2c2c2c;   
+    background-color: #2c2c2c;   
 }
 
 .drawer-section.well, .well, .well-simple, .well-chat, .multi-vcard-dialog-contact
 {
-	background-color: #222;   
+    background-color: #222;   
 }
 
 .audio-duration
@@ -871,12 +871,12 @@ input
 
 .chatlist-panel .chatlist-panel-body
 {
-	background-color: transparent;   
+    background-color: transparent;   
 }
 
 .Gd51Q._3sgkv
 {
-	color: inherit;   
+    color: inherit;   
 }
 
 html[dir=ltr] ._1i1U7.jZ4tp { background: transparent!important; }
@@ -912,7 +912,7 @@ html[dir] .L89LI
 
 .pane-chat-header:after
 {
-	z-index: -1;   
+    z-index: -1;   
 }
 
 html[dir] ._1mq8g
@@ -934,12 +934,12 @@ html[dir] ._2uLFU,
 html[dir] ._1ArIP,
 html[dir] ._1CRb5
 {
-	background-color: #222222;   
+    background-color: #222222;   
 }
 
 .chat-body, .header-body
 {
-	border-top: 0px;   
+    border-top: 0px;   
 }
 
 .chat:hover:after, .chat.hover:after, .chat.active:after, .chat.active:after
@@ -953,7 +953,7 @@ html[dir] ._1CRb5
 .DYGf2,
 html[dir=ltr] ._2dGjP
 {
-	color: #c2c2c2;   
+    color: #c2c2c2;   
 }
 
 html[dir=ltr] ._28zBA._14ou2
@@ -964,12 +964,12 @@ html[dir=ltr] ._28zBA._14ou2
 html[dir] ._2MSJr
 {
     background-color: #333;
-	border-color: #666;    
+    border-color: #666;    
 }
 
 html[dir] ._1CkkN:hover
 {
-	background-color: #3c3c3c;   
+    background-color: #3c3c3c;   
 }
 
 html[dir] ._2iSIf
@@ -985,28 +985,28 @@ html[dir] ._2iSIf
 
 .input-emoji-search
 {
-	color: #666!important;   
+    color: #666!important;   
 }
 
 html[dir=ltr] ._2Cju4.jZ4tp
 {
-	background: none;   
+    background: none;   
 }
 
 .Bmrty
 {
-	color: rgba(255, 255, 255, 0.6);   
+    color: rgba(255, 255, 255, 0.6);   
 }
 
 .message, .media-caption
 {
-	font-size: 12px;
+    font-size: 12px;
     color: #ccc;
 }
 
 html[dir] .gQzdc._3sdhb
 {
-	background-color: #3d3d3d;
+    background-color: #3d3d3d;
 }
 
 html[dir] .gQzdc._3sdhb input
@@ -1015,32 +1015,32 @@ html[dir] .gQzdc._3sdhb input
 }
 
 .message strong, .media-caption strong
-{	color: #ccc;
+{   color: #ccc;
 }
 
 html[dir] .FstZn
 {
-	color: #cecece;   
+    color: #cecece;   
 }
 
 html[dir] ._2EXPL,
 html[dir] ._3CPl4,
 html[dir] ._1NrpZ
 {
-	background-color: #2c2c2c!important;
+    background-color: #2c2c2c!important;
     color: #cecece!important;
 }
 
 html[dir] ._3auIg,
 html[dir] ._3AwwN
 {
-	background-color: #3e3e3e!important;
+    background-color: #3e3e3e!important;
     color: #cecece!important;
 }
 
 html[dir] ._3oju3
 {
-	   background-color: #2c2c2c;
+       background-color: #2c2c2c;
 }
 
 html[dir] ._2EXPL._1f1zm
@@ -1057,7 +1057,7 @@ html[dir] ._2EXPL._1f1zm:after,
 html[dir] ._2EXPL:hover ._3j7s9, 
 html[dir] ._2EXPL._3df_h ._3j7s9
 {
-	border-top-color: #666;   
+    border-top-color: #666;   
 }
 
 html[dir] ._2EXPL:hover:after, 
@@ -1077,38 +1077,38 @@ body
 ._1AwDx,
 ._2zCDG
 {
- 	color: #cecece;
+    color: #cecece;
     font-size: 14px;
 }
 
 html[dir] ._1GX8_,
 html[dir] ._2jVLL
 {
-	background-color: transparent;   
+    background-color: transparent;   
 }
 
 html[dir] ._3j7s9
 {
-	border-top: transparent;   
+    border-top: transparent;   
 }
 
 ._3Bxar,
 ._7HWvs
 {
- 	color: #cecece; 
+    color: #cecece; 
     font-size: 14px;  
 }
 
 ._3NFp9,
 ._1bX-5
 {
-	font-size: 12px;   
+    font-size: 12px;   
 }
 
 ._2EXPL.CxUIE ._1AwDx,
 .CxUIE ._25Ooe
 {
-	color: #fff;
+    color: #fff;
 }
 
 html[dir] ._2EYZY,
@@ -1116,34 +1116,34 @@ html[dir] ._1qdni,
 html[dir] ._3ETD3,
 html[dir] ._1CnF3
 {
- 	background-color: #2e2e2e;   
+    background-color: #2e2e2e;   
 }
 
 html[dir] .R0lQ6
 {
- 	background-color: #3e3e3e;   
+    background-color: #3e3e3e;   
 }
 
 html[dir] .mnt6B,
 html[dir] ._3XpR2
 {
- 	background-color: #222;
+    background-color: #222;
 }
 
 .Gz6Af
 {
- 	color: #cecece;   
+    color: #cecece;   
 }
 
 html[dir] ._2-ptl ._27BA_, 
 html[dir] ._3WvAg ._27BA_
 {
-	background-color: rgba(0,0,0,0.2);    
+    background-color: rgba(0,0,0,0.2);    
 }
 
 html[dir=ltr] ._1fkhx
 {
- 	border-left: 1px solid #666;   
+    border-left: 1px solid #666;   
 }
 
 html[dir] ._3gUiM
@@ -1153,7 +1153,7 @@ html[dir] ._3gUiM
 
 ._228tA
 {
-	overflow: hidden;    
+    overflow: hidden;    
 }
 
 html[dir] ._1drQ-, 

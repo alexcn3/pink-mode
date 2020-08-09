@@ -19,17 +19,13 @@ var warning_en  = false,
      *
      */
     suggestions_text: {
-        'youtube.com'       : ' Youtube.com has its own dark mode. We suggest to use that and then whitelist it for better experience',
         'chrome.google.com' :'Dark Mode will not work in this page because Google Chrome do not allow extensions to modify certain pages due to security reasons.',
         'settings'          :'Dark Mode will not work in this page because Google Chrome do not allow extensions to modify certain pages due to security reasons.',
         'extensions'        :'Dark Mode will not work in this page because Google Chrome do not allow extensions to modify certain pages due to security reasons.',
-        'newtab'            :'Dark Mode will not work in this page because Google Chrome do not allow extensions to modify certain pages due to security reasons.',
-        'reddit.com'        : 'If you are a frequent reddit user, you might get better experience by installing Reddit Enhancement Suite chrome extension and enabling night mode in it. And then, whitelist reddit.',
-        'twitter.com': 'Twitter now has a dark mode in their website itself! You can enable it by clicking your profile photo and then clicking Night mode button.  If you are a frequent twitter user you might get better experience doing that and then switching on the whitelist.',
-        'duckduckgo.com': 'DuckDuckGo has an inbuilt dark mode. You can enable it by clicking on the menu button on the top right corner and clicking the grey/black circle. After doing that, click the whitelist button. If you are a frequent user of DuckDuckGo, this might give you a better browsing experience.',
-        'darknightmode.com': 'Thank you for visiting our website. If you have any issues, then check out the FAQs. If you want to report a problem, click on the report button below.  If you like our plugin, please share it with your friends.',
-        'discordapp.com': 'Discord has an inbuilt dark mode which you can enable by pressing the settings icon next to your username at bottom left corner. Then, click the Appearance option and choose dark. After that, click the whitelist button. This might give you a better experience if you are a frequent Discord user.'
+        'newtab'            :'Dark Mode will not work in this page because Google Chrome do not allow extensions to modify certain pages due to security reasons.',   
+        'duckduckgo.com'    :'You can change your theme in the DuckDuckGo settings to see which combination of theme and pink mode fits your browser best.',
     },
+    
     hostname: function (url) {
         url = url.replace("www.", '');
         var s = url.indexOf("//") + 2;
