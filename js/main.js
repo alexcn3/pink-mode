@@ -409,7 +409,6 @@ var pink_mode_main = {
                 } else if (cmyk_color.k > (cmyk_color*0.1)) {
                     cmyk_color.k = 0.1 * cmyk_color.k;
                 }
-
                 var bgcolor = this.get_new_shade(cmyk_color);
                 this.curr_obj[current_color] = bgcolor;
             } else {
@@ -527,7 +526,7 @@ var pink_mode_main = {
                 }
                 current_node.style.setProperty('background', bgcolor, 'important');
             }
-            current_node.style.setProperty('color', 'rgb(240, 98, 15)', 'important');
+            current_node.style.setProperty('color', 'rgb(224, 17, 95)', 'important');
         }
         pink_mode_main.start_attr_observing();
         /*if (current_node.classList.indexOf('l-main-content') > -1) {
